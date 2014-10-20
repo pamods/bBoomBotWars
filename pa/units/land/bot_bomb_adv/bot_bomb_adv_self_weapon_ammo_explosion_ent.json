@@ -1,0 +1,12 @@
+{
+  "recon":{
+    "observable":{
+      "layer":"surface_and_air",
+      "sphere_radius":40
+    }
+  },
+  "spawn_response":{
+    "audio_cue":"/SE/Weapons/sea/T2_battleship_fire",
+    "effect_spec":"/pa/units/land/tank_heavy_armor/tank_heavy_armor_ammo_explosion.pfx"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ammo_type":"PBAOE",
+  "damage":2000,
+  "splash_radius":25,
+  "splash_damages_allies":false,
+  "sim_fire_effect":"/pa/units/land/tank_heavy_armor/tank_heavy_armor_ammo_explosion_ent.json",
+  "impact_decals":[
+    "/pa/effects/specs/scorch_b_01.json"
+  ],
+  "damage_volume":{
+    "initial_radius":30.0
+  }
+}
