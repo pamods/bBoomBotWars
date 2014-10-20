@@ -14,13 +14,8 @@
   "self_destruct":true,
   "target_layers":[
     "WL_LandHorizontal",
-    "WL_WaterSurface"
-  ],
-  "target_priorities":[
-    "Commander",
-    "MetalProduction",
-    "Structure - Wall",
-    "Mobile - Air",
-    "Wall"
+    "WL_WaterSurface",
+    "WL_Underwater",
+    "WL_Seafloor"
   ]
 }

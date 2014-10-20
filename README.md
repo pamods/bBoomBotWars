@@ -1,4 +1,4 @@
-bBoomBotWars
+Boom Bot Wars
 ============
 
 Server / gamemode / rebalance mod for Planetary Annihilation

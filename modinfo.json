@@ -1,17 +1,20 @@
 {
     "context": "server",
-    "identifier": "bBoomBotWars",
+    "identifier": "com.pa.burntcustard.bBoomBotWars",
     "display_name": "Boom Bot Wars",
     "description": "All structures and units assist in the destruction of your enemies through extreme Boom Bot usage.",
     "author": "burntcustard",
     "version": "1.4",
     "build": "69721",
     "date": "2014/08/02",
+    "signature": "not yet implemented",
     "category": [
         "in-game",
         "server-mod"
     ],
+    "id": "bBoomBotWars",
     "forum": "https://forums.uberent.com/threads/rel-boom-bot-wars.61879/",
     "icon": "http://pamods.github.io/icons/bBoomBotWars.png",
+    "priority": 100,
     "enabled": true
 }
