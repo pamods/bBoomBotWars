@@ -4,7 +4,7 @@
   "si_name":"commander",
   "strategic_icon_priority":0,
   "max_health":12500,
-  "build_metal_cost":25000,
+  "build_metal_cost":20000,
   "buildable_types":"CmdBuild",
   "show_in_orbital_layer":true,
   "armor_type":"AT_Commander",
@@ -79,6 +79,7 @@
   "teleportable":{
 
   },
+  "nearby_target_tick_update_interval":8,
   "tools":[
     {
       "spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json",
@@ -94,7 +95,8 @@
       "spec_id":"/pa/tools/uber_cannon/uber_cannon.json",
       "aim_bone":"bone_turret",
       "muzzle_bone":"socket_rightMuzzle",
-      "secondary_weapon":true
+      "secondary_weapon":true,
+      "show_range":false
     }
   ],
   "death_weapon":{
