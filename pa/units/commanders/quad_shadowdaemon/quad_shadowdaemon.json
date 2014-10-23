@@ -1,7 +1,7 @@
 {
-  "base_spec":"/pa/units/commanders/imperial_base/imperial_base.json",
-  "display_name":"Theta Commander",
-  "description":"Imperial Theta Commander",
+  "base_spec":"/pa/units/commanders/quad_base/quad_base.json",
+  "display_name":"Shadowdaemon Commander",
+  "description":"Quadruped Shadowdaemon Commander",
   "attachable":{
     "offsets":{
       "root":[
@@ -11,11 +11,73 @@
       ],
       "head":[
         0,
-        0,
-        12.0
+        0.8,
+        12
       ]
     }
   },
+  "model":{
+    "filename":"/pa/units/commanders/quad_shadowdaemon/quad_shadowdaemon.papa"
+  },
+  "headlights":[
+    {
+      "gobo":"/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "offset":[
+        0.0,
+        -1.2,
+        4.3
+      ],
+      "orientation":[
+        0.0,
+        45.0,
+        0.0
+      ],
+      "near_width":5.0,
+      "near_height":5.0,
+      "near_distance":3.0,
+      "far_distance":30.0,
+      "color":[
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity":6.0,
+      "bone":"bone_spine",
+      "shadow_resolution":128
+    }
+  ],
+  "lamps":[
+    {
+      "offset":[
+        0.0,
+        -1.2,
+        4.3
+      ],
+      "radius":2.0,
+      "color":[
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity":5.0,
+      "bone":"bone_spine"
+    },
+    {
+      "offset":[
+        0.025,
+        3.68,
+        -1.0
+      ],
+      "radius":4.0,
+      "color":[
+        0.4,
+        1.0,
+        0.01
+      ],
+      "intensity":2.0,
+      "bone":"bone_leftShoulder"
+    }
+  ],
   "tools":[
     {
       "spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json",
@@ -143,71 +205,9 @@
       "effect_spec":"/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
-  "model":{
-    "filename":"/pa/units/commanders/imperial_theta/imperial_theta.papa"
-  },
-  "headlights":[
-    {
-      "gobo":"/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "offset":[
-        0,
-        -2.972,
-        -0.289
-      ],
-      "orientation":[
-        0.0,
-        45.0,
-        0.0
-      ],
-      "near_width":5.0,
-      "near_height":5.0,
-      "near_distance":3.0,
-      "far_distance":30.0,
-      "color":[
-        1.0,
-        1.0,
-        1.0
-      ],
-      "intensity":6.0,
-      "bone":"bone_spine",
-      "shadow_resolution":128
-    }
-  ],
-  "lamps":[
-    {
-      "offset":[
-        0,
-        -2.972,
-        -0.289
-      ],
-      "radius":2.0,
-      "color":[
-        1.0,
-        1.0,
-        1.0
-      ],
-      "intensity":5.0,
-      "bone":"bone_spine"
-    },
-    {
-      "offset":[
-        0.07,
-        -3.85,
-        0.2
-      ],
-      "radius":4.0,
-      "color":[
-        0.4,
-        1.0,
-        0.01
-      ],
-      "intensity":2.0,
-      "bone":"bone_leftElbow"
-    }
-  ],
   "mesh_bounds":[
-    9.8,
-    7,
-    12.2
+    11.5,
+    8.71255,
+    11.8
   ]
 }

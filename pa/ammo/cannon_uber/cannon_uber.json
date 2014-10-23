@@ -43,15 +43,15 @@
   "turn_rate":180,
   "damage":2000,
   "splash_damage":2000,
-  "splash_radius":25,
+  "splash_radius":35,
   "full_damage_splash_radius":25,
-  "lifetime":4,
+  "lifetime":3,
   "initial_velocity":135.0,
   "max_velocity":135.0,
   "burn_damage":200,
-  "burn_radius":30,
+  "burn_radius":40,
   "armor_damage_map":{
-    "AT_Structure":1,
+    "AT_Structure":0.5,
     "AT_Commander":0.5
   },
   "impact_decals":["/pa/effects/specs/scorch_b_01.json"]

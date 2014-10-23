@@ -1,7 +1,7 @@
 {
   "base_spec":"/pa/units/commanders/imperial_base/imperial_base.json",
-  "display_name":"Invictus Commander",
-  "description":"Imperial Invictus Commander",
+  "display_name":"Aryst0krat Commander",
+  "description":"Imperial Aryst0krat Commander",
   "attachable":{
     "offsets":{
       "root":[
@@ -12,19 +12,19 @@
       "head":[
         0,
         0,
-        12.2
+        13.2
       ]
     }
   },
   "model":{
-    "filename":"/pa/units/commanders/imperial_invictus/imperial_invictus.papa"
+    "filename":"/pa/units/commanders/imperial_aryst0krat/imperial_aryst0krat.papa"
   },
   "headlights":[
     {
       "gobo":"/pa/effects/textures/gobo/spotlight_gobo.papa",
       "offset":[
         0.0,
-        -1.7,
+        -2.3,
         1.9
       ],
       "orientation":[
@@ -50,8 +50,8 @@
     {
       "offset":[
         0.0,
-        -1.7,
-        1.9
+        -1.95,
+        0.87
       ],
       "radius":2.0,
       "color":[
@@ -78,9 +78,34 @@
       "bone":"bone_leftElbow"
     }
   ],
+  "tools":[
+    {
+      "spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json",
+      "aim_bone":"bone_turret"
+    },
+    {
+      "spec_id":"/pa/units/commanders/base_commander/base_commander_tool_flamethrower.json",
+      "aim_bone":"bone_turret",
+      "muzzle_bone":"socket_rightMuzzle",
+      "primary_weapon":true
+    },
+    {
+      "spec_id":"/pa/tools/uber_cannon/uber_cannon.json",
+      "aim_bone":"bone_turret",
+      "muzzle_bone":"socket_rightMuzzle",
+      "secondary_weapon":true,
+      "show_range":false
+    }
+  ],
+  "events":{
+    "fired":{
+      "audio_cue":"/SE/Weapons/veh/tank_flame",
+      "effect_spec":"/pa/units/commanders/base_commander/base_commander_tool_flamethrower_flame.pfx socket_rightMuzzle"
+    }
+  },
   "mesh_bounds":[
-    12.6,
-    7,
-    12.2193
+    10,
+    6,
+    12
   ]
 }

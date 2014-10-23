@@ -16,6 +16,31 @@
       ]
     }
   },
+  "tools":[
+    {
+      "spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json",
+      "aim_bone":"bone_turret"
+    },
+    {
+      "spec_id":"/pa/units/commanders/base_commander/base_commander_tool_flamethrower.json",
+      "aim_bone":"bone_turret",
+      "muzzle_bone":"socket_rightMuzzle",
+      "primary_weapon":true
+    },
+    {
+      "spec_id":"/pa/tools/uber_cannon/uber_cannon.json",
+      "aim_bone":"bone_turret",
+      "muzzle_bone":"socket_rightMuzzle",
+      "secondary_weapon":true,
+      "show_range":false
+    }
+  ],
+  "events":{
+    "fired":{
+      "audio_cue":"/SE/Weapons/veh/tank_flame",
+      "effect_spec":"/pa/units/commanders/base_commander/base_commander_tool_flamethrower_flame.pfx socket_rightMuzzle"
+    }
+  },
   "model":{
     "filename":"/pa/units/commanders/imperial_delta/imperial_delta.papa"
   },
