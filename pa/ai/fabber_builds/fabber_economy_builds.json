@@ -310,7 +310,7 @@
           {
             "test_type":"PotentialEnergyEfficiency",
             "compare0":"<",
-            "value0":1.0
+            "value0":0.5
           },
           {
             "test_type":"UnitCount",
@@ -320,7 +320,7 @@
           },
           {
             "test_type":"UnitCount",
-            "unit_type_string0":"EnergyProduction & Advanced",
+            "unit_type_string0":"Factory & Advanced",
             "compare0":"<",
             "value0":1
           },
@@ -345,7 +345,7 @@
       "name":"Basic Energy Generator - Desire",
       "to_build":"BasicEnergyGenerator",
       "instance_count":1,
-      "max_num_assisters":3,
+      "max_num_assisters":1,
       "shared_instance_count":"BasicEnergy",
       "priority":500,
       "builders":[
@@ -364,7 +364,7 @@
           },
           {
             "test_type":"UnitCount",
-            "unit_type_string0":"EnergyProduction & Advanced",
+            "unit_type_string0":"Factory & Advanced",
             "compare0":"<",
             "value0":1
           },
@@ -565,41 +565,6 @@
           {
             "test_type":"CanFindPlaceToBuild",
             "string0":"AdvancedEnergyGenerator"
-          }
-        ]
-      ],
-      "placement_rules":{
-        "buffer":10,
-        "placement_type":"FromBaseCenter",
-        "threat":{
-          "influence_type":"AntiSurface",
-          "compare_type":"<",
-          "radius":10,
-          "value":50
-        }
-      }
-    },
-    {
-      "name":"Energy Storage",
-      "to_build":"EnergyStorage",
-      "instance_count":1,
-      "priority":140,
-      "builders":[
-        "AnyBasicFabber"
-      ],
-      "build_conditions":[
-        [
-          {
-            "test_type":"EnergyStorageToProductionRatio",
-            "compare0":"<",
-            "value0":3
-          },
-          {
-            "test_type":"CanAffordBuildDemand"
-          },
-          {
-            "test_type":"CanFindPlaceToBuild",
-            "string0":"EnergyStorage"
           }
         ]
       ],
