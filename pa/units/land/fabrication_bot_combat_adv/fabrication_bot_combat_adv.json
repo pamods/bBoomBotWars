@@ -104,9 +104,9 @@
       "effect_scale":5
     },
     "died":{
-      "audio_cue":"/SE/Death/Bot_bomb",
-      "effect_spec":"/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx",
-      "effect_scale":3
+      "audio_cue":"/SE/Death/Veh",
+      "effect_spec":"/pa/effects/specs/CPlosion.pfx",
+      "effect_scale":2.5
     }
   },
   "audio":{

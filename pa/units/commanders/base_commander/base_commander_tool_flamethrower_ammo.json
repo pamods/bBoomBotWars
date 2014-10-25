@@ -3,5 +3,6 @@
   "damage":75,
   "splash_damage":75,
   "splash_radius":8,
-  "splash_damages_allies":false
+  "splash_damages_allies":false,
+  "fx_collision_spec":"/pa/effects/specs/scorch_effect.pfx"
 }

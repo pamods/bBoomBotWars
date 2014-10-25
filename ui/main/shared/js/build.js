@@ -4,6 +4,8 @@ function BuildHotkeyModel() {
 
     self.SpecIdToGridMap = ko.observable(
         {
+            "/pa/units/land/artillery_long/artillery_long.json": ["utility", 0],
+
             "/pa/units/land/radar_adv/radar_adv.json": ["utility", 2],
             "/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
             "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],

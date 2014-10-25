@@ -37,19 +37,20 @@
   "events":{
     "died":{
       "audio_cue":"/SE/Weapons/sea/T2_battleship_fire",
-      "effect_spec":"/pa/ammo/cannon_uber/Ubercannon_explosion.pfx"
+      "effect_spec":"/pa/effects/specs/CPlosion.pfx",
+      "effect_scale":5
     }
   },
   "turn_rate":180,
   "damage":2000,
   "splash_damage":2000,
-  "splash_radius":35,
+  "splash_radius":30,
   "full_damage_splash_radius":25,
   "lifetime":3,
   "initial_velocity":135.0,
   "max_velocity":135.0,
   "burn_damage":200,
-  "burn_radius":40,
+  "burn_radius":35,
   "armor_damage_map":{
     "AT_Structure":0.5,
     "AT_Commander":0.5

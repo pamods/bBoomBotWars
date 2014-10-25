@@ -7,6 +7,7 @@
   },
   "spawn_response":{
     "audio_cue":"/SE/Weapons/sea/T2_battleship_fire",
-    "effect_spec":"/pa/units/land/bot_bomb_adv/miniNuke.pfx"
+    "effect_spec":"/pa/effects/specs/CPlosion.pfx",
+    "effect_scale":1.9
   }
 }

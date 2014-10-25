@@ -38,6 +38,8 @@
       "/pa/units/commanders/tank_aeson/tank_aeson.json",
       "/pa/units/commanders/tank_base/tank_base.json",
 
+      "/pa/units/land/artillery_long/artillery_long.json",
+
       "/pa/units/land/avatar_factory/avatar_factory.json",
       "/pa/units/land/base_bot/base_bot.json",
       "/pa/units/land/base_structure/base_structure.json",
@@ -47,7 +49,6 @@
       "/pa/units/land/bot_bomb/bot_bomb.json",
 
       "/pa/units/land/bot_factory/bot_factory.json",
-      "/pa/units/land/bot_factory_adv/bot_factory_adv.json",
       "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json",
       "/pa/units/land/tank_heavy_armor/tank_heavy_armor.json",
       "/pa/units/land/vehicle_factory/vehicle_factory.json",

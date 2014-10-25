@@ -9,7 +9,7 @@
   "pitch_range":40,
   "auto_attack":true,
   "idle_aim_delay":0,
-  "firing_standard_deviation": 3.5,
+  "firing_standard_deviation": 3.6,
   "spread_fire":true,
   "target_layers":[
     "WL_LandHorizontal",

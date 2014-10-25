@@ -7,9 +7,9 @@
     "WL_Air"
   ],
   "ammo_source":"energy",
-  "ammo_capacity":20000,
+  "ammo_capacity":15000,
   "ammo_demand":2500,
-  "ammo_per_shot":20000,
+  "ammo_per_shot":15000,
   "max_range":135,
   "yaw_rate":360,
   "pitch_rate":360,
