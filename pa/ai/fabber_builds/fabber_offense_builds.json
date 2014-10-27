@@ -175,8 +175,8 @@
       "name":"Long Range Artillery",
       "to_build":"LongRangeArtillery",
       "instance_count":1,
-      "min_num_assisters":3,
-      "max_num_assisters":6,
+      "min_num_assisters":4,
+      "max_num_assisters":7,
       "priority":360,
       "builders":[
         "AnyAdvancedFabber"
@@ -197,12 +197,8 @@
             "value0":1
           },
           {
-            "test_type":"UnitCountAroundBase",
-            "unit_type_string0":"Structure",
-            "string0":"Enemy",
-            "value0":600,
-            "compare0":">=",
-            "value1":5
+            "test_type":"CanAffordPotentialDrain",
+            "string0":"AdvancedVehicleFactory"
           },
           {
             "test_type":"CanFindPlaceToBuild",
@@ -218,7 +214,7 @@
             "unit_type_string":"Structure",
             "alliance":"Enemy",
             "compare_type":">=",
-            "range":500,
+            "range":700,
             "count":5
           }
         ],

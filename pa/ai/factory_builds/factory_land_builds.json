@@ -59,8 +59,10 @@
       "build_conditions":[
         [
           {
-            "test_type":"AloneOnPlanet",
-            "boolean":false
+            "test_type":"UnitCountOnPlanet",
+            "unit_type_string0":"Bot & Basic",
+            "compare0":"<",
+            "value0":999
           }
         ]
       ]
