@@ -1,6 +1,6 @@
 {
   "display_name":"Boom Mine",
-  "description":"Land mine- Detonates when enemy units are in proximity.",
+  "description":"Land mine- Detonates when enemy units are in proximity. Completely invisible to enemy vision & radar.",
   "strategic_icon_priority":3,
   "max_health":2000,
   "build_metal_cost":45,

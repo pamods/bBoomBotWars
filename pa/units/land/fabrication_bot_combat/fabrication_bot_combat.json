@@ -1,7 +1,7 @@
 {
   "base_spec":"/pa/units/land/base_bot/base_bot.json",
   "display_name":"Combat Fabricator",
-  "description":"Fabricator combatant- Wired to repair units and build Boom Mines.",
+  "description":"Fabricator combatant- Wired to repair units, & build Teleporters & Boom Mines.",
   "max_health":500,
   "build_metal_cost":360,
   "attachable":{
