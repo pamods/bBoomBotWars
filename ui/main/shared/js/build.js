@@ -19,6 +19,8 @@ function BuildHotkeyModel() {
             "/pa/units/land/energy_storage/energy_storage.json": ["utility", 13],
             "/pa/units/land/metal_storage/metal_storage.json": ["utility", 14],
 
+            "/pa/units/land/laser_defense_single/laser_defense_single.json": ["utility", 5],
+
             "/pa/units/sea/naval_factory_adv/naval_factory_adv.json": ["factory", 6],
             "/pa/units/air/air_factory_adv/air_factory_adv.json": ["factory", 7],
             "/pa/units/land/bot_factory_adv/bot_factory_adv.json": ["factory", 8],

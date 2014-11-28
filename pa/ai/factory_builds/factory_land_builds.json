@@ -16,21 +16,15 @@
             "boolean":false
           },
           {
-            "test_type":"CanAffordBuildDemand"
-          },
-          {
-            "test_type":"NeedBasicLandFabber"
-          },
-          {
             "test_type":"CanAffordPotentialDrain",
             "string0":"BasicVehicleFabber"
           },
           {
             "test_type":"UnitRatioOnPlanet",
-            "unit_type_string0":"(Tank | Bot) & Fabber & Basic",
-            "unit_type_string1":"(Tank | Bot) & Factory & Basic",
-            "compare0":"<",
-            "value0":6
+            "unit_type_string0":"Factory & Basic",
+            "unit_type_string1":"Fabber & Basic",
+            "compare0":">",
+            "value0":2
           }
         ],
         [

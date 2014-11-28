@@ -19,7 +19,7 @@
       ]
     }
   },
-  "buildable_types":"Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild",
+  "buildable_types":"Land & Structure & Advanced | FabAdvBuild | FabBuild",
   "unit_types":[
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
