@@ -7,5 +7,6 @@
   "min_basic_fabbers":4,
   "max_basic_fabbers":10,
   "min_advanced_fabbers":1,
-  "max_advanced_fabbers":10
+  "max_advanced_fabbers":10,
+  "unit_cap":3000
 }

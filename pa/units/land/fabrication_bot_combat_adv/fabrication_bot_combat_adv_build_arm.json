@@ -5,7 +5,7 @@
   "max_range":8,
   "auto_repair":false,
   "construction_demand":{
-    "energy":0,
+    "energy":800,
     "metal":1500
   }
 }

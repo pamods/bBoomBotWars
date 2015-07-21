@@ -29,7 +29,10 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Offense",
+    "UNITTYPE_SelfDestruct"
   ],
   "area_build_type":"Line",
   "area_build_separation":0,

@@ -1,9 +1,9 @@
 {
   "base_spec":"/pa/units/land/base_structure/base_structure.json",
-  "display_name":"Advanced Vehicle Factory",
-  "description":"Advanced manufacturing- Builds fabricators, Boom Tanks, and Boom Lobbers.",
+  "display_name":"Advanced Factory",
+  "description":"Advanced manufacturing- Builds fabricators, Boom Tanks, Boom Lobbers, and GIANT BOOM BOTS.",
   "max_health":30000,
-  "build_metal_cost":4800,
+  "build_metal_cost":4000,
   "atrophy_rate":80.0,
   "atrophy_cool_down":15.0,
   "buildable_types":"Mobile & Tank & FactoryBuild",

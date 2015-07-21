@@ -1,7 +1,7 @@
 {
   "base_spec":"/pa/units/land/base_bot/base_bot.json",
   "display_name":"Experimental Giant Boom Bot",
-  "description":"Stepping on smaller units does damage, builds Booms & Boom Mines, nuclear self destruct on attack command.",
+  "description":"Stepping on smaller units does damage. Builds Booms & Boom Mines. Nuclear self destruct on attack command.",
   "max_health":6000,
   "spawn_layers":"WL_LandHorizontal",
   "build_metal_cost":2400,

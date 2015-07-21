@@ -26,7 +26,8 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
     "UNITTYPE_Land",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_CannonBuildable"
   ],
   "command_caps":[
     "ORDER_Move",
