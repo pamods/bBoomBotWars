@@ -77,28 +77,12 @@
     {
       "name":"Air Scout",
       "to_build":"AirScout",
-      "instance_count":1,
+      "instance_count":-1,
       "priority":98,
       "builders":[
-        "BasicAirFactory"
+        "BasicBotFactory"
       ],
       "build_conditions":[
-        [
-          {
-            "test_type":"BaseThreatened",
-            "boolean":false
-          },
-          {
-            "test_type":"UnitCountPerPlanetRadius",
-            "unit_type_string0":"Air & Scout",
-            "compare0":"<",
-            "value0":400
-          },
-          {
-            "test_type":"HaveFullPlanetIntel",
-            "boolean":false
-          }
-        ],
         [
           {
             "test_type":"BaseThreatened",
@@ -108,11 +92,14 @@
             "test_type":"UnitCountOnPlanet",
             "unit_type_string0":"Air & Scout",
             "compare0":"<",
-            "value0":1
+            "value0":999
           },
           {
-            "test_type":"HaveFullPlanetIntel",
-            "boolean":false
+            "test_type":"UnitRatioOnPlanet",
+            "unit_type_string0":"Air & Scout",
+            "unit_type_string1":"(Tank | Bot) - Fabber",
+            "compare0":"<",
+            "value0":0.1
           }
         ]
       ]

@@ -15,9 +15,6 @@
     "AnyAdvancedFabber":{
       "unit_types":"(Fabber & (Advanced | Debug)) - Orbital"
     },
-    "BoomBot":{
-      "spec_id":"/pa/units/land/bot_bomb/bot_bomb.json"
-    },
     "BasicBotFabber":{
       "spec_id":"/pa/units/land/fabrication_bot/fabrication_bot.json"
     },
@@ -78,6 +75,9 @@
     "BasicArtilleryBot":{
       "spec_id":"/pa/units/land/bot_grenadier/bot_grenadier.json"
     },
+    "BoomBot":{
+      "spec_id":"/pa/units/land/bot_bomb/bot_bomb.json"
+    },
     "AdvancedAssaultBot":{
       "spec_id":"/pa/units/land/assault_bot_adv/assault_bot_adv.json"
     },
@@ -95,6 +95,9 @@
     },
     "BasicAAVehicle":{
       "spec_id":"/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json"
+    },
+    "BasicAABot":{
+      "spec_id":"/pa/units/land/bot_aa/bot_aa.json"
     },
     "AdvancedLaserTank":{
       "spec_id":"/pa/units/land/tank_laser_adv/tank_laser_adv.json"
@@ -120,6 +123,9 @@
     "AdvancedGunship":{
       "spec_id":"/pa/units/air/gunship/gunship.json"
     },
+    "Sub":{
+      "spec_id":"/pa/units/sea/attack_sub/attack_sub.json"
+    },
     "Frigate":{
       "spec_id":"/pa/units/sea/frigate/frigate.json"
     },
@@ -132,6 +138,9 @@
     "MissleShip":{
       "spec_id":"/pa/units/sea/missile_ship/missile_ship.json"
     },
+    "MissileSub":{
+      "spec_id":"/pa/units/sea/nuclear_sub/nuclear_sub.json"
+    },
     "OrbitalFighter":{
       "spec_id":"/pa/units/orbital/orbital_fighter/orbital_fighter.json"
     },
@@ -140,6 +149,9 @@
     },
     "OrbitalDeathLaser":{
       "spec_id":"/pa/units/orbital/orbital_laser/orbital_laser.json"
+    },
+    "OrbitalExtractor":{
+      "spec_id":"/pa/units/orbital/mining_platform/mining_platform.json"
     },
     "BasicBotFactory":{
       "spec_id":"/pa/units/land/bot_factory/bot_factory.json"
@@ -210,8 +222,14 @@
     "AntiNukeSilo":{
       "spec_id":"/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json"
     },
+    "UnitCannon":{
+      "spec_id":"/pa/units/land/unit_cannon/unit_cannon.json"
+    },
     "PlanetEngine":{
       "spec_id":"/pa/units/orbital/delta_v_engine/delta_v_engine.json"
+    },
+    "ControlModule":{
+      "spec_id":"/pa/units/land/control_module/control_module.json"
     },
     "Teleporter":{
       "spec_id":"/pa/units/land/teleporter/teleporter.json"

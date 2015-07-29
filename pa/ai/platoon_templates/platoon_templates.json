@@ -1,5 +1,56 @@
 {
   "platoon_templates":{
+    "Land_Raid_Small":{
+      "units":[
+        {
+          "unit_types":"(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy",
+          "min_count":1,
+          "max_count":3,
+          "squad":"Fast"
+        }
+      ]
+    },
+    "Land_Raid_Medium":{
+      "units":[
+        {
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
+          "min_count":4,
+          "max_count":9,
+          "squad":"Fast"
+        }
+      ]
+    },
+    "Land_Raid_Large":{
+      "units":[
+        {
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
+          "min_count":10,
+          "max_count":19,
+          "squad":"Fast"
+        }
+      ]
+    },
+    "Land_Raid_XLarge":{
+      "units":[
+        {
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
+          "min_count":20,
+          "max_count":39,
+          "squad":"Fast"
+        }
+      ]
+    },
+    "Land_Raid_Max":{
+      "units":[
+        {
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
+          "min_count":40,
+          "max_count":-1,
+          "squad":"Fast"
+        }
+      ]
+    },
+
     "Land_Attack_Small":{
       "units":[
         {
@@ -9,7 +60,7 @@
           "squad":"Fast"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout",
+          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count":0,
           "max_count":3,
           "squad":"General"
@@ -21,7 +72,7 @@
           "squad":"Artillery"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) & Heavy",
+          "unit_types":"((Tank | Bot) & Mobile) & (Heavy | SelfDestruct)",
           "min_count":0,
           "percent":0.5,
           "squad":"Close"
@@ -30,12 +81,6 @@
           "unit_types":"((Tank | Bot) & Mobile) & (AirDefense | Construction)",
           "min_count":0,
           "percent":0.2,
-          "squad":"Defense"
-        },
-        {
-          "unit_types":"Land & Scout",
-          "min_count":0,
-          "percent":0.05,
           "squad":"Defense"
         }
       ]
@@ -43,13 +88,13 @@
     "Land_Attack_Medium":{
       "units":[
         {
-          "unit_types":"(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy",
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
           "min_count":0,
           "max_count":10,
           "squad":"Fast"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout",
+          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count":0,
           "max_count":10,
           "squad":"General"
@@ -61,7 +106,7 @@
           "squad":"Artillery"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) & Heavy",
+          "unit_types":"((Tank | Bot) & Mobile) & (Heavy | SelfDestruct)",
           "min_count":0,
           "percent":0.5,
           "squad":"Close"
@@ -70,12 +115,6 @@
           "unit_types":"((Tank | Bot) & Mobile) & (AirDefense | Construction)",
           "min_count":0,
           "percent":0.2,
-          "squad":"Defense"
-        },
-        {
-          "unit_types":"Land & Scout",
-          "min_count":0,
-          "percent":0.05,
           "squad":"Defense"
         }
       ]
@@ -83,13 +122,13 @@
     "Land_Attack_Large":{
       "units":[
         {
-          "unit_types":"(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy",
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
           "min_count":0,
           "max_count":20,
           "squad":"Fast"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout",
+          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count":0,
           "max_count":20,
           "squad":"General"
@@ -101,7 +140,7 @@
           "squad":"Artillery"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) & Heavy",
+          "unit_types":"((Tank | Bot) & Mobile) & (Heavy | SelfDestruct)",
           "min_count":0,
           "percent":0.5,
           "squad":"Close"
@@ -110,12 +149,6 @@
           "unit_types":"((Tank | Bot) & Mobile) & (AirDefense | Construction)",
           "min_count":0,
           "percent":0.2,
-          "squad":"Defense"
-        },
-        {
-          "unit_types":"Land & Scout",
-          "min_count":0,
-          "percent":0.05,
           "squad":"Defense"
         }
       ]
@@ -123,7 +156,7 @@
     "Land_Attack_XLarge":{
       "units":[
         {
-          "unit_types":"(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy",
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
           "min_count":0,
           "max_count":40,
           "squad":"Fast"
@@ -141,7 +174,7 @@
           "squad":"Artillery"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) & Heavy",
+          "unit_types":"((Tank | Bot) & Mobile) & (Heavy | SelfDestruct)",
           "min_count":0,
           "percent":0.5,
           "squad":"Close"
@@ -150,12 +183,6 @@
           "unit_types":"((Tank | Bot) & Mobile) & (AirDefense | Construction)",
           "min_count":0,
           "percent":0.2,
-          "squad":"Defense"
-        },
-        {
-          "unit_types":"Land & Scout",
-          "min_count":0,
-          "percent":0.05,
           "squad":"Defense"
         }
       ]
@@ -163,13 +190,13 @@
     "Land_Attack_Max":{
       "units":[
         {
-          "unit_types":"(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy",
+          "unit_types":"(Bot & Mobile) - Fabber - Construction - Artillery - Heavy",
           "min_count":0,
           "max_count":-1,
           "squad":"Fast"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout",
+          "unit_types":"((Tank | Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count":0,
           "max_count":-1,
           "squad":"General"
@@ -181,7 +208,7 @@
           "squad":"Artillery"
         },
         {
-          "unit_types":"((Tank | Bot) & Mobile) & Heavy",
+          "unit_types":"((Tank | Bot) & Mobile) & (Heavy | SelfDestruct)",
           "min_count":0,
           "percent":0.5,
           "squad":"Close"
@@ -190,12 +217,6 @@
           "unit_types":"((Tank | Bot) & Mobile) & (AirDefense | Construction)",
           "min_count":0,
           "percent":0.2,
-          "squad":"Defense"
-        },
-        {
-          "unit_types":"Land & Scout",
-          "min_count":0,
-          "percent":0.05,
           "squad":"Defense"
         }
       ]
@@ -204,14 +225,22 @@
       "units":[
         {
           "unit_types":"Air & Scout",
+          "max_count":5
+        }
+      ]
+    },
+    "Vehicle_Scout":{
+      "units":[
+        {
+          "unit_types":"Tank & Scout",
           "max_count":1
         }
       ]
     },
-    "Land_Scout":{
+    "Bot_Scout":{
       "units":[
         {
-          "unit_types":"Land & Scout",
+          "unit_types":"Bot & Scout",
           "max_count":1
         }
       ]
@@ -240,7 +269,7 @@
         },
         {
           "unit_types":"Air & Fighter",
-          "min_count":1,
+          "min_count":0,
           "percent":0.25,
           "squad":"Escort"
         }
@@ -255,7 +284,7 @@
         },
         {
           "unit_types":"Air & Fighter",
-          "min_count":2,
+          "min_count":0,
           "percent":0.25,
           "squad":"Escort"
         }
@@ -270,7 +299,7 @@
         },
         {
           "unit_types":"Air & Fighter",
-          "min_count":4,
+          "min_count":0,
           "percent":0.25,
           "squad":"Escort"
         }
@@ -285,17 +314,53 @@
         },
         {
           "unit_types":"Air & Fighter",
-          "min_count":6,
+          "min_count":0,
           "percent":0.25,
           "squad":"Escort"
         }
       ]
     },
-    "Fighter_Attack":{
+    "Fighter_Attack_Small":{
       "units":[
         {
           "unit_types":"Air & Fighter",
           "min_count":1,
+          "max_count":3
+        }
+      ]
+    },
+    "Fighter_Attack_Medium":{
+      "units":[
+        {
+          "unit_types":"Air & Fighter",
+          "min_count":4,
+          "max_count":9
+        }
+      ]
+    },
+    "Fighter_Attack_Large":{
+      "units":[
+        {
+          "unit_types":"Air & Fighter",
+          "min_count":10,
+          "max_count":19
+        }
+      ]
+    },
+    "Fighter_Attack_XLarge":{
+      "units":[
+        {
+          "unit_types":"Air & Fighter",
+          "min_count":20,
+          "max_count":39
+        }
+      ]
+    },
+    "Fighter_Attack_Max":{
+      "units":[
+        {
+          "unit_types":"Air & Fighter",
+          "min_count":40,
           "max_count":-1
         }
       ]
@@ -331,8 +396,7 @@
       "units":[
         {
           "unit_types":"Orbital & Recon - Structure",
-          "min_count":1,
-          "max_count":-1
+          "max_count":1
         }
       ]
     },
@@ -345,10 +409,19 @@
         }
       ]
     },
+    "UnitCannon":{
+      "units":[
+        {
+          "unit_types":"Structure & Artillery & Factory",
+          "min_count":1,
+          "max_count":-1
+        }
+      ]
+    },
     "Artillery":{
       "units":[
         {
-          "unit_types":"Structure & (Artillery | Tactical)",
+          "unit_types":"(Structure & (Artillery | Tactical)) - Factory",
           "max_count":1
         }
       ]

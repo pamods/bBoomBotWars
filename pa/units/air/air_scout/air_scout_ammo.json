@@ -3,9 +3,9 @@
   "model": {
     "filename": "/pa/units/air/air_scout/air_boom.papa"
   },
-  "splash_damage": 250,
+  "splash_damage": 200,
   "splash_radius": 15,
-  "damage": 250,
+  "damage": 200,
   "splash_damages_allies": false,
   "min_velocity": 40,
   "initial_velocity": 80,

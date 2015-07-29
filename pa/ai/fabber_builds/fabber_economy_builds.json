@@ -3,10 +3,10 @@
     {
       "name":"Basic Metal Extractor - Area",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":261,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -45,10 +45,10 @@
     {
       "name":"Basic Metal Extractor - Desire - Area",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":501,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -85,10 +85,10 @@
     {
       "name":"Basic Metal Extractor - Expand - Area",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":260,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber"
@@ -124,10 +124,10 @@
     {
       "name":"Basic Metal Extractor - Expand 2 - Area",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":2,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -164,10 +164,10 @@
     {
       "name":"Basic Metal Extractor",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":261,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -199,10 +199,10 @@
     {
       "name":"Basic Metal Extractor - Desire",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":501,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -232,10 +232,10 @@
     {
       "name":"Basic Metal Extractor - Expand",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":260,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",
@@ -265,10 +265,10 @@
     {
       "name":"Basic Metal Extractor - Expand 2",
       "to_build":"BasicMetalExtractor",
-      "instance_count":2,
+      "instance_count":3,
       "shared_instance_count":"BasicMetal",
       "priority":2,
-      "max_num_assisters":1,
+      "max_num_assisters":0,
       "base_sort":"FromBuilder",
       "builders":[
         "AnyBasicFabber",

@@ -36,7 +36,7 @@
             "test_type":"UnitCountOnPlanet",
             "unit_type_string0":"Fabber & Basic",
             "compare0":"<",
-            "value0":2
+            "value0":3
           }
         ]
       ]
@@ -57,6 +57,42 @@
             "unit_type_string0":"Bot & Basic",
             "compare0":"<",
             "value0":999
+          }
+        ]
+      ]
+    },
+    {
+      "name":"Basic AA Bot",
+      "to_build":"BasicAABot",
+      "instance_count":1,
+      "priority":98,
+      "builders":[
+        "BasicBotFactory"
+      ],
+      "build_conditions":[
+        [
+          {
+            "test_type":"CanAffordBuildDemand"
+          },
+          {
+            "test_type":"CanDeployLandFromBase",
+            "boolean":true
+          },
+          {
+            "test_type":"UnitRatioOnPlanet",
+            "unit_type_string0":"(Tank | Bot) & AirDefense",
+            "unit_type_string1":"(Tank | Bot) - Fabber",
+            "compare0":"<",
+            "value0":0.1
+          }
+        ],
+        [
+          {
+            "test_type":"BaseThreatRatio",
+            "string0":"Air",
+            "string1":"AntiAir",
+            "compare0":">",
+            "value0":1.0
           }
         ]
       ]
@@ -157,8 +193,8 @@
       "name":"Advanced Bot Fabber",
       "to_build":"AdvancedBotFabber",
       "instance_count":1,
-      "max_num_assisters":5,
-      "max_num_assisters":15,
+      "min_num_assisters":3,
+      "max_num_assisters":8,
       "priority":201,
       "builders":[
         "AdvancedVehicleFactory"
@@ -166,14 +202,14 @@
       "build_conditions":[
         [
           {
-            "test_type":"NeedAdvancedLandFabber"
-          },
-          {
             "test_type":"UnitRatioOnPlanet",
             "unit_type_string0":"Factory & Advanced",
             "unit_type_string1":"Fabber & Advanced",
             "compare0":">=",
             "value0":1
+          },
+          {
+            "test_type":"CanAffordBuildDemand"
           }
         ]
       ]
@@ -182,7 +218,7 @@
       "name":"Advanced Armor Tank",
       "to_build":"AdvancedArmorTank",
       "instance_count":-1,
-      "max_num_assisters":5,
+      "max_num_assisters":1,
       "priority":199,
       "builders":[
         "AdvancedVehicleFactory"
@@ -190,30 +226,10 @@
       "build_conditions":[
         [
           {
-            "test_type":"AloneOnPlanet",
-            "boolean":false
-          },
-          {
-            "test_type":"CanAffordBuildDemand"
-          }
-        ],
-        [
-          {
-            "test_type":"AloneOnPlanet",
-            "boolean":true
-          },
-          {
-            "test_type":"OtherPlanetNeedsLandUnitAssistance",
-            "boolean":true
-          },
-          {
-            "test_type":"CanAffordBuildDemand"
-          },
-          {
             "test_type":"UnitCountOnPlanet",
-            "unit_type_string0":"Structure & Teleporter",
-            "compare0":">",
-            "value0":0
+            "unit_type_string0":"Tank & Heavy",
+            "compare0":"<",
+            "value0":999
           }
         ]
       ]
@@ -222,7 +238,7 @@
       "name":"Advanced Artillery Vehicle",
       "to_build":"AdvancedArtilleryVehicle",
       "instance_count":-1,
-      "max_num_assisters":5,
+      "max_num_assisters":3,
       "priority":200,
       "builders":[
         "AdvancedVehicleFactory"
