@@ -1,9 +1,11 @@
 {
   "base_spec":"/pa/units/land/base_structure/base_structure.json",
-  "display_name":"!LOC(units:unit_cannon.message):Unit Cannon",
-  "description":"!LOC(units:unit_cannon_long_range_unit_dispersal.message):Unit Cannon: Long range unit dispersal",
-  "max_health":3000,
+  "display_name":"!LOC:Unit Cannon",
+  "description":"!LOC:Interplanetary Transport- Builds and launches up to 12 units at once anywhere in the system.",
+  "max_health":18000,
   "build_metal_cost":14400,
+  "atrophy_rate":140.0,
+  "atrophy_cool_down":15.0,
   "factory_cooldown_time":3.0,
   "wait_to_rolloff_time":3.0,
   "buildable_types":"CannonBuildable",
@@ -12,14 +14,6 @@
     "store_units":true,
     "pass_on_orders":false,
     "spawn_points":[
-      "socket_build",
-      "socket_build",
-      "socket_build",
-      "socket_build",
-      "socket_build",
-      "socket_build",
-      "socket_build",
-      "socket_build",
       "socket_build",
       "socket_build",
       "socket_build",
@@ -40,6 +34,7 @@
     "UNITTYPE_Structure",
     "UNITTYPE_Factory",
     "UNITTYPE_Advanced",
+    "UNITTYPE_Artillery",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Important"
   ],
@@ -79,7 +74,9 @@
       "effect_spec":"/pa/units/land/unit_cannon/unit_cannon_fire.pfx bone_recoil02"
     },
     "died":{
-      "audio_cue":"/SE/Death/unit_cannon"
+      "audio_cue":"/SE/Death/unit_cannon",
+      "effect_spec":"/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale":1.0
     }
   },
   "audio":{
@@ -137,15 +134,17 @@
       ]
     }
   ],
+  "selection_icon":{
+    "diameter":74.5
+  },
   "mesh_bounds":[
     50,
     50,
     30
   ],
   "placement_size":[
-    50,
-    50
+    65,
+    65
   ],
-  "area_build_separation":7,
   "TEMP_texelinfo":62.1789
 }

@@ -1,7 +1,7 @@
 {
   "base_spec":"/pa/units/land/base_bot/base_bot.json",
-  "display_name":"!LOC:Boom",
-  "description":"!LOC:Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
+  "display_name":"!LOC:Tesla Boom",
+  "description":"!LOC:Tesla Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
   "max_health":10,
   "build_metal_cost":45,
   "atrophy_rate":15,
@@ -78,7 +78,7 @@
   },
   "tools":[
     {
-      "spec_id":"/pa/units/land/bot_bomb/bot_bomb_tool_weapon.json",
+      "spec_id":"/pa/units/land/bot_tesla/bot_tesla_tool_weapon.json",
       "aim_bone":"bone_root",
       "muzzle_bone":"bone_root"
     }

@@ -1,8 +1,8 @@
 {
   "base_spec":"/pa/units/land/base_structure/base_structure.json",
-  "unit_name":"!LOC(units:teleporter.message):Teleporter",
-  "display_name":"!LOC(units:teleporter.message):Teleporter",
-  "description":"!LOC(units:teleporter_teleports_units_from_one_to_another.message):Teleporter: Teleports units from one to another.",
+  "unit_name":"!LOC:Teleporter",
+  "display_name":"!LOC:Teleporter",
+  "description":"!LOC:Teleporter: Teleports units from one to another.",
   "max_health":9750,
   "build_metal_cost":800,
   "atrophy_rate":6.66667,
@@ -10,6 +10,7 @@
   "spawn_layers":"WL_LandHorizontal",
   "area_build_type":"Line",
   "energy_efficiency_requirement":1.0,
+  "flip_drag_orientation":true,
   "unit_types":[
     "UNITTYPE_Structure",
     "UNITTYPE_Teleporter",
@@ -169,6 +170,9 @@
   "useable":{
     "type":"teleporter",
     "range":30
+  },
+  "selection_icon":{
+    "diameter":74.0
   },
   "mesh_bounds":[
     42.4,

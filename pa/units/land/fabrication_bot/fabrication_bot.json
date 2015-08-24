@@ -1,10 +1,9 @@
 {
-  "base_spec":"/pa/units/land/base_vehicle/base_vehicle.json",
-  "display_name":"!LOC:Fabrication Vehicle",
-  "description":"!LOC:Builder- Builds structures. Durable. More powerful than other builders.",
-  "max_health":500,
-  "build_metal_cost":200,
-  "buildable_types":"Land & Structure & Basic | Factory & Basic | Factory & Land & Tank & Advanced | FabBuild",
+  "base_spec":"/pa/units/land/base_bot/base_bot.json",
+  "display_name":"!LOC:Fabrication Bot",
+  "description":"!LOC:Builder- Builds basic structures.",
+  "max_health":50,
+  "build_metal_cost":150,
   "attachable":{
     "offsets":{
       "root":[
@@ -15,17 +14,18 @@
       "head":[
         0,
         0,
-        2.7
+        3.6
       ]
     }
   },
+  "buildable_types":"Land & Structure & Basic | Factory & Basic | Factory & Advanced & Land | FabBuild",
   "unit_types":[
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction",
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Basic",
     "UNITTYPE_Land",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable"
   ],
@@ -44,15 +44,14 @@
   "guard_layer":"WL_LandHorizontal",
   "navigation":{
     "type":"land-small",
-    "acceleration":120,
-    "brake":120,
-    "move_speed":12,
+    "acceleration":160,
+    "brake":-1,
+    "move_speed":16,
     "turn_speed":360,
     "group_preference":"back"
   },
   "physics":{
-    "radius":3,
-    "push_class":100,
+    "radius":2,
     "allow_pushing":true
   },
   "recon":{
@@ -63,18 +62,28 @@
           "channel":"sight",
           "shape":"capsule",
           "radius":100
+        },
+        {
+          "layer":"underwater",
+          "channel":"sight",
+          "shape":"capsule",
+          "radius":100
         }
       ]
     }
   },
-  "model":{
-    "filename":"/pa/units/land/fabrication_vehicle/fabrication_vehicle.papa",
-    "animtree":"/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-    "arrows":5
+  "model": {
+    "animations": {
+      "idle": "/pa/units/land/fabrication_bot/Bfab21_anim_idle.papa",
+      "walk": "/pa/units/land/fabrication_bot/Bfab21_anim_walk.papa"
+    },
+    "animtree": "/pa/anim/one_turret_walk_idle.json",
+    "filename": "/pa/units/land/fabrication_bot/Bfab21.papa",
+    "walk_speed": 3
   },
   "tools":[
     {
-      "spec_id":"/pa/units/land/fabrication_vehicle/fabrication_vehicle_build_arm.json",
+      "spec_id":"/pa/units/land/fabrication_bot/fabrication_bot_build_arm.json",
       "aim_bone":"bone_root"
     }
   ],
@@ -83,50 +92,46 @@
       "audio_cue":"/SE/Build_Complete/fab"
     },
     "died":{
-      "audio_cue":"/SE/Death/Veh",
-      "effect_scale":1.5
+      "audio_cue":"/SE/Death/Bot",
+      "effect_scale":0.8
     }
   },
   "audio":{
     "loops":{
       "build":{
-        "cue":"/SE/Construction/Fab_contruction_beam_loop",
+        "cue":"/SE/Construction/Fab_bot_contruction_beam_loop",
         "flag":"build_target_changed",
         "should_start_func":"has_build_target",
         "should_stop_func":"no_build_target"
       },
       "move":{
-        "cue":"/SE/Movement/veh/fab_loop",
+        "cue":"/SE/Movement/bot/fab_loop",
         "flag":"vel_changed",
         "should_start_func":"is_moving",
         "should_stop_func":"is_not_moving"
       }
     },
     "selection_response":{
-      "cue":"/SE/Selection/veh/fab"
+      "cue":"/SE/Selection/bot/fab"
+    },
+    "command_response":{
+      "cue":"/SE/Confirmation/bot/fab"
     }
   },
-  "fx_offsets":[
+  "fx_offsets": [
     {
-      "type":"build",
-      "filename":"/pa/effects/specs/fab_spray.pfx",
-      "bone":"bone_pitch",
-      "offset":[
-        0,
-        -4.198,
-        0.381
-      ],
-      "orientation":[
-        0,
-        0,
-        0
-      ]
+      "bone": "muzzle00",
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "type": "build"
     }
   ],
-  "TEMP_texelinfo":6.20134,
+  "selection_icon":{
+    "diameter":9.0
+  },
+  "TEMP_texelinfo":5.11028,
   "mesh_bounds":[
-    4.5,
-    6,
-    3
+    4,
+    3.8,
+    4
   ]
 }
