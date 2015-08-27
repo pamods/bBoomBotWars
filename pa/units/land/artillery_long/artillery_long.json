@@ -1,9 +1,9 @@
 {
   "base_spec":"/pa/units/land/base_structure/base_structure.json",
-  "display_name":"!LOC(units:holkins.message):Holkins",
+  "display_name":"Holkins",
   "description":"Advanced artillery- Rapid fire long range Boom distribution. WARNING! Consumes 90 metal/s.",
   "max_health":5000,
-  "build_metal_cost":4800,
+  "build_metal_cost":7200,
   "atrophy_rate":240.0,
   "atrophy_cool_down":15.0,
   "spawn_layers":"WL_AnyHorizontalGroundOrWaterSurface",
@@ -93,10 +93,17 @@
       "bone":"bone_pitch"
     }
   ],
+  "selection_icon":{
+    "diameter":40.0
+  },
   "mesh_bounds":[
-    13,
-    30.8,
+    15,
+    25,
     15.0376
+  ],
+  "placement_size":[
+    30,
+    30
   ],
   "TEMP_texelinfo":26.6522
 }

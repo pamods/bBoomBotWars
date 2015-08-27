@@ -1,10 +1,10 @@
 {
   "base_spec":"/pa/units/land/base_bot/base_bot.json",
-  "display_name":"Experimental Giant Boom Bot",
-  "description":"Stepping on smaller units does damage. Builds Booms & Boom Mines. Nuclear self destruct on attack command.",
+  "display_name":"Giant Boom Bot",
+  "description":"Stepping on smaller units does damage. Alt-fire spawns regular Booms. Nuclear self destruct on attack command.",
   "max_health":6000,
   "spawn_layers":"WL_LandHorizontal",
-  "build_metal_cost":2400,
+  "build_metal_cost":3375,
   "attachable":{
     "offsets":{
       "root":[
@@ -19,8 +19,6 @@
       ]
     }
   },
-  "buildable_types":"CombatFabAdvBuild",
-  "can_only_assist_with_buildable_items":true,
   "unit_types":[
     "UNITTYPE_Construction",
     "UNITTYPE_Tank",
@@ -32,10 +30,10 @@
   "command_caps":[
     "ORDER_Move",
     "ORDER_Patrol",
+    "ORDER_Attack",
     "ORDER_Assist",
-    "ORDER_Build",
     "ORDER_Use",
-    "ORDER_Attack"
+    "ORDER_FireSecondaryWeapon"
   ],
   "transportable":{
     "size":1
@@ -90,7 +88,12 @@
       "show_range":false
     },
     {
-      "spec_id":"/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json"
+      "spec_id":"/pa/units/land/bot_bomb_adv/bot_bomb_adv_poop_weapon.json",
+      "aim_bone":"bone_root",
+      "muzzle_bone":"bone_root",
+      "secondary_weapon":true,
+      "primary_weapon":false,
+      "show_range":false
     }
   ],
   "events":{
@@ -139,8 +142,8 @@
   ],
   "TEMP_texelinfo":6.38702,
   "mesh_bounds":[
-    10,
-    8,
-    15.04
+    15,
+    16,
+    12
   ]
 }

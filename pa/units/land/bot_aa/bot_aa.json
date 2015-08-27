@@ -69,7 +69,7 @@
     "walk_speed":20,
     "arrows":5
   },
-  "nearby_target_tick_update_interval":3,
+  "nearby_target_tick_update_interval":2,
   "tools":[
     {
       "spec_id":"/pa/units/land/bot_aa/bot_aa_tool_weapon.json",
@@ -89,8 +89,7 @@
       "effect_spec":"/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     },
     "died":{
-      "audio_cue":"/SE/Death/bot",
-      "effect_scale":0.6
+      "audio_cue":"/SE/Death/bot"
     }
   },
   "audio":{
@@ -104,6 +103,9 @@
     }
   },
   "TEMP_texelinfo":5.47132,
+  "selection_icon":{
+    "diameter":9.0
+  },
   "mesh_bounds":[
     4.5,
     3,

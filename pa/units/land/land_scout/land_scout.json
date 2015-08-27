@@ -79,7 +79,7 @@
     },
     "died":{
       "audio_cue":"/SE/Death/Veh_small",
-      "effect_scale":0.65
+      "effect_scale":0.85
     }
   },
   "audio":{
@@ -93,6 +93,9 @@
     }
   },
   "TEMP_texelinfo":4.03457,
+  "selection_icon":{
+    "diameter":9.0
+  },
   "mesh_bounds":[
     3.5,
     4.5,

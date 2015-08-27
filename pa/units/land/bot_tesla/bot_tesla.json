@@ -1,7 +1,7 @@
 {
   "base_spec":"/pa/units/land/base_bot/base_bot.json",
   "display_name":"!LOC:Tesla Boom",
-  "description":"!LOC:Tesla Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
+  "description":"!LOC:Tesla Bomb bot- Contains one zap to destroy small enemy units. Low self-destruct damage. Extremely fast.",
   "max_health":10,
   "build_metal_cost":45,
   "atrophy_rate":15,
@@ -29,7 +29,6 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
     "UNITTYPE_SelfDestruct"
@@ -81,15 +80,21 @@
       "spec_id":"/pa/units/land/bot_tesla/bot_tesla_tool_weapon.json",
       "aim_bone":"bone_root",
       "muzzle_bone":"bone_root"
+    },
+    {
+      "spec_id":"/pa/units/land/bot_tesla/bot_tesla_zapper.json",
+      "aim_bone":"bone_root",
+      "muzzle_bone":"socket_muzzle"
     }
   ],
+  "nearby_target_tick_update_interval":2,
   "events":{
     "build_complete":{
       "audio_cue":"/SE/Build_Complete/bot"
     },
     "fired":{
-      "audio_cue":"",
-      "effect_spec":""
+      "audio_cue":"/SE/Weapons/air/solar_drone_fire",
+      "effect_spec":"/pa/units/air/solar_drone/solar_drone_muzzle_flash.pfx socket_muzzle"
     },
     "died":{
       "audio_cue":"/SE/Death/Bot",

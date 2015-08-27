@@ -26,15 +26,12 @@ var Build = (function() {
 
             //"/pa/units/land/titan_structure/titan_structure.json": ["utility", 0],
             "/pa/units/land/control_module/control_module.json": ["utility", 1],
-            "/pa/units/land/radar_adv/radar_adv.json": ["utility", 8],
             "/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
             "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],
-            "/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 7],
-            "/pa/units/land/radar/radar.json": ["utility", 14],
+            //"/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 7],
             "/pa/units/land/energy_plant/energy_plant.json": ["utility", 9],
             "/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 10],
             //"/pa/units/land/land_barrier/land_barrier.json": ["utility", 12],
-            "/pa/units/land/teleporter/teleporter.json": ["utility", 13],
             "/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["utility", 2],
             "/pa/units/land/energy_storage/energy_storage.json": ["utility", 15],
             "/pa/units/land/metal_storage/metal_storage.json": ["utility", 16],
@@ -72,6 +69,9 @@ var Build = (function() {
           
             "/pa/units/land/artillery_long/artillery_long.json": ["utility", 0],
             "/pa/units/land/laser_defense_single/laser_defense_single.json": ["utility", 12],
+            "/pa/units/land/radar_adv/radar_adv.json": ["utility", 7],
+            "/pa/units/land/radar/radar.json": ["utility", 13],
+            "/pa/units/land/teleporter/teleporter.json": ["utility", 14],
 
             // Vehicle / utility factory:
             "/pa/units/land/fabrication_bot/fabrication_bot.json": ["vehicle", 12],

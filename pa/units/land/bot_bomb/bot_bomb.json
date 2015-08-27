@@ -29,7 +29,6 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
     "UNITTYPE_SelfDestruct"

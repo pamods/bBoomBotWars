@@ -18,7 +18,6 @@
   "damage":160,
   "splash_damage":50,
   "splash_radius":10,
-  "full_damage_splash_radius":2,
   "splash_damages_allies":false,
   "min_velocity":40,
   "initial_velocity":80,

@@ -79,5 +79,8 @@
       "/pa/effects/specs/scorch_a_01.json"
     ]
   },
+  "selection_icon":{
+    "diameter":9.0
+  },
   "TEMP_texelinfo":2.37699
 }

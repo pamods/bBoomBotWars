@@ -1,0 +1,21 @@
+{
+  "base_spec":"/pa/tools/base_laser_turret/base_laser_turret.json",
+  "ammo_id":"/pa/units/land/bot_tesla/bot_tesla_zapper_ammo.json",
+  "ammo_source":"energy",
+  "rate_of_fire":1,
+  "ammo_capacity":1,
+  "ammo_demand":0,
+  "ammo_per_shot":1,
+  "max_range":50,
+  "yaw_rate":360,
+  "pitch_rate":180,
+  "yaw_range":180,
+  "pitch_range":90,
+  "auto_attack":true,
+  "target_layers":[
+    "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_WaterSurface",
+    "WL_Air"
+  ]
+}

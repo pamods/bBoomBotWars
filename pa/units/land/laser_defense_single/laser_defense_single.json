@@ -70,6 +70,9 @@
     5.76558,
     14.6
   ],
-  "area_build_separation":18,
+  "selection_icon":{
+    "diameter":9.0
+  },
+  "area_build_separation":15,
   "TEMP_texelinfo":10.2184
 }

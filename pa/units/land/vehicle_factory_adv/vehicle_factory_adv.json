@@ -3,7 +3,7 @@
   "display_name":"Advanced Factory",
   "description":"Advanced manufacturing- Builds fabricators, Boom Tanks, Boom Lobbers, and GIANT BOOM BOTS.",
   "max_health":30000,
-  "build_metal_cost":4000,
+  "build_metal_cost":3600,
   "atrophy_rate":80.0,
   "atrophy_cool_down":15.0,
   "buildable_types":"Mobile & Tank & FactoryBuild",
@@ -316,18 +316,22 @@
       "intensity":2.0
     }
   ],
+  "selection_icon":{
+    "diameter":74.0
+  },
   "mesh_bounds":[
     50,
     50,
     23
   ],
   "placement_size":[
-    50,
+    60,
     80
   ],
-  "area_build_separation":7,
+  "area_build_separation":2,
   "TEMP_texelinfo":62.1789,
   "physics":{
     "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
   }
+}
 }
