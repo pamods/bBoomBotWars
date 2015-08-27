@@ -8,6 +8,9 @@
   "atrophy_cool_down":1,
   "wreckage_health_frac":0.0,
   "spawn_layers":"WL_LandHorizontal",
+  "production":{
+    "energy":-30
+  },
   "attachable":{
     "offsets":{
       "root":[
@@ -94,7 +97,7 @@
     },
     "fired":{
       "audio_cue":"/SE/Weapons/air/solar_drone_fire",
-      "effect_spec":"/pa/units/air/solar_drone/solar_drone_muzzle_flash.pfx socket_muzzle"
+      "effect_spec":""
     },
     "died":{
       "audio_cue":"/SE/Death/Bot",
@@ -114,6 +117,23 @@
       "cue":"/SE/Selection/bot/bot_bomb"
     }
   },
+  "fx_offsets":[
+    {
+      "type":"idle",
+      "filename":"/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "bone":"bone_root",
+      "offset":[
+        0.0,
+        0.0,
+        0.99
+      ],
+      "orientation":[
+        0,
+        0,
+        0
+      ]
+    }
+  ],
   "TEMP_texelinfo":6.38702,
   "death":{
     "decals":{}
