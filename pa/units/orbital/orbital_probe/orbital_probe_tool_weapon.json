@@ -1,0 +1,19 @@
+{
+  "tool_type":"TOOL_Weapon",
+  "ammo_id":"/pa/units/orbital/orbital_probe/orbital_probe_ammo.json",
+  "rate_of_fire":1,
+  "idle_aim_delay":0,
+  "max_range":15,
+  "yaw_rate":720,
+  "pitch_rate":720,
+  "yaw_range":180,
+  "pitch_range":180,
+  "firing_arc_yaw":360,
+  "firing_arc_pitch":360,
+  "auto_attack":true,
+  "self_destruct":true,
+  "no_busy_auto_attack":true,
+  "target_layers":[
+    "WL_Orbital"
+  ]
+}

@@ -63,8 +63,9 @@
     "/pa/units/commanders/tutorial_player_commander/tutorial_player_commander.json",
     "/pa/units/commanders/tutorial_titan_commander/tutorial_titan_commander.json",
     
-    "/pa/units/air/air_scout/air_scout.json",
-    "/pa/units/land/bot_aa/bot_aa.json",
+    "/pa/units/land/titan_structure/titan_structure.json",
+    "/pa/units/orbital/delta_v_engine/delta_v_engine.json",
+    "/pa/units/land/control_module/control_module.json",
 
     "/pa/units/land/laser_defense_single/laser_defense_single.json",
     "/pa/units/land/artillery_long/artillery_long.json",
@@ -110,6 +111,8 @@
     "/pa/units/orbital/base_orbital/base_orbital.json",
     "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
     "/pa/units/orbital/orbital_launcher/orbital_launcher.json",
+    "/pa/units/orbital/titan_orbital/titan_orbital.json",
+    "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json",
     "/pa/units/orbital/orbital_probe/orbital_probe.json"
   ]
 }
