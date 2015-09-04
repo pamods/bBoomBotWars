@@ -14,6 +14,10 @@
   "pitch_range":0,
   "firing_arc_yaw":180,
   "firing_arc_pitch":180,
+  "carpet_fire":true,
+  "carpet_wait_for_full_ammo":true,
   "spread_fire":true,
-  "auto_attack":false
+  "auto_attack":false,
+  "manual_fire":true,
+  "auto_task_type":"none"
 }
