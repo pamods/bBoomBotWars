@@ -98,6 +98,9 @@
     "scroll_rate":0.58,
     "uv_split":0.855
   },
+  "selection_icon":{
+    "diameter":13.5
+  },
   "TEMP_texelinfo":9.04444,
   "mesh_bounds":[
     7.5,

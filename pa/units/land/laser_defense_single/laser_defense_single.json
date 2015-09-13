@@ -65,6 +65,53 @@
       "effect_scale":0.75
     }
   },
+  "fx_offsets":[
+    {
+      "type":"idle",
+      "filename":"/pa/units/land/laser_defense_single/laser_defense_single_jets.pfx",
+      "bone":"socket_muzzle",
+      "offset":[
+        0,
+        1.6,
+        0.84
+      ],
+      "orientation":[
+        0,
+        -180,
+        0
+      ]
+    },
+    {
+      "type":"idle",
+      "filename":"/pa/units/land/laser_defense_single/laser_defense_single_jets.pfx",
+      "bone":"socket_muzzle",
+      "offset":[
+        0.84,
+        1.6,
+        0
+      ],
+      "orientation":[
+        0,
+        -180,
+        0
+      ]
+    },
+    {
+      "type":"idle",
+      "filename":"/pa/units/land/laser_defense_single/laser_defense_single_jets.pfx",
+      "bone":"socket_muzzle",
+      "offset":[
+        -0.84,
+        1.6,
+        0
+      ],
+      "orientation":[
+        0,
+        -180,
+        0
+      ]
+    }
+  ],
   "mesh_bounds":[
     6.8,
     5.76558,
